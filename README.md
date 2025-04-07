@@ -4,8 +4,6 @@
 
 > React 프론트엔드와 분리된 구조로 운영되며, 각 기관/조직(테넌트)별 도서, 회원, 대출 기능을 제공합니다.
 
----
-
 ## 🚀 주요 기능
 
 - ✅ 테넌트 기반 사용자/도서/회원 데이터 격리
@@ -14,8 +12,6 @@
 - ✅ Redis 기반 API Rate Limiting (요금제 적용 가능)
 - ✅ Swagger UI로 API 문서 자동화
 - ✅ Docker 기반 배포 환경 구성
-
----
 
 ## 🛠 기술 스택
 
@@ -29,8 +25,6 @@
 | 문서화 | Swagger / SpringDoc |
 | 배포 | Docker, GitHub Actions (예정) |
 
----
-
 ## 🧱 아키텍처 개요
 
 ```
@@ -38,8 +32,6 @@
                                 ↓  
                             [Redis (Rate Limit)]
 ```
-
----
 
 ## 📦 프로젝트 구조 (예시)
 
@@ -55,8 +47,6 @@ com.librispace
 ├── service
 └── ...
 ```
-
----
 
 ## 🧪 실행 방법
 
@@ -84,13 +74,9 @@ jwt:
 ./gradlew bootRun
 ```
 
----
-
 ## 📑 API 문서
 
 Swagger UI: `http://localhost:8080/swagger-ui/index.html`
-
----
 
 ## 📄 라이선스
 
